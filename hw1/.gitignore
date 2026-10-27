@@ -1,0 +1,28 @@
+# данные: скачиваются ноутбуком, в репозиторий не кладём
+data/
+*.dat
+*.csv
+*.parquet
+*.npz
+*.npy
+*.pkl
+*.zip
+*.gz
+
+# окружение
+.venv/
+venv/
+env/
+.env
+
+# кеши
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+
+# системное
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
